@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    font-style: italic;
+    background-repeat: no-repeat;
+    background-size: cover;
+    shape-margin: 1rem;
+}
+
+h1 {
+    color: blue;
+}
+
+a {
+    color: red;
+}
+
+.product {
+    background-color: rgb(234, 224, 224);
+    padding: 1.5rem;
+    margin-bottom: 5px;
+    list-style: none;
+}
+
+.producten {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    width: 100vw;
+    list-style: none;
+    margin: 0;
+    padding: 1rem;
+    background-image: url("https://thvnext.bing.com/th/id/OIP.7O42Tk0Wqch3I33hBwcGLgHaE8?w=276&h=184&c=7&r=0&o=7&cb=ucfimg2&dpr=1.5&pid=1.7&rm=3&ucfimg=1");
+    background-size: cover;
+}
+
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #aa1d04;
+    color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.review-section {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.review-section h2 {
+    text-align: center;
+    color: #333;
+}
+
+.review {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.review h3 {
+    margin: 0;
+    color: #555;
+}
+
+.review p {
+    margin: 10px 0;
+    color: #666;
+}
+
+.rating {
+    color: #f39c12;
+    font-size: 1.2em;
+}
