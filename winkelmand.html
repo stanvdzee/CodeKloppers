@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>winkelmandje</title>
+    <link rel="shortcut icon" type="X-icon" href="IMG/Logo-v03 (pixel).png">
+    <link rel="stylesheet" href="wm.css">
+</head>
+<body>
+    <!-- <a href="Home.html">Home</a> -->
+
+    <div class="Search-bar">
+        <form onsubmit="alert('Dit is een schoen.')">
+            <input type="text" placeholder="  Zoeken.. " required>
+            <button type="submit"><img src="IMG/search-icon-2048x2048-cmujl7en.png" alt="search-icon"></button>
+            <a href="winkelmand.html"><img src="IMG/Shopping-Cart-Transparent.png" alt="winkel-mand"></a>
+        </form>
+    </div>
+
+    <h1>
+        <img src="IMG/Shopping-Cart-Transparent.png" alt="winkel-mand" width="50px" height="50px"> winkelmandje 
+    </h1>
+
+    <!-- mandje voorbeeld region -->
+    <div class="mand-row">
+        <div class="mand-column" id="mand-header"><p>image:</p></div>
+        <div class="mand-column" id="mand-header"><p>name:</p></div>
+        <div class="mand-column" id="mand-header"><p>price:</p></div>
+    </div>
+    <div class="mand-row">
+        <div class="mand-column"><img src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/99486859-0ff3-46b4-949b-2d16af2ad421/custom-nike-dunk-high-by-you-shoes.png" alt="schoen_1"></div>
+        <div class="mand-column"><p>schoen 1</p></div>
+        <div class="mand-column"><p>€ 40.-</p></div>
+    </div>
+    <div class="mand-row">
+        <div class="mand-column"><img src="https://cdna.lystit.com/520/650/n/photos/kickscrew/01d32622/nike-red-Dunk-High-Championship.jpeg" alt="schoen_2"></div>
+        <div class="mand-column"><p>schoen 2</p></div>
+        <div class="mand-column"><p>€ 44.-</p></div>
+    </div>
+    <!-- mandje voorbeeld region end-->
+
+    <div class="betaal-box">
+        <p>totaal: € 84</p>
+        <form onsubmit="alert('Bedankt voor uw bestelling')">
+            <button type="submit">betalen ></button>
+        </form>
+    </div>
+</body>
+</html>
