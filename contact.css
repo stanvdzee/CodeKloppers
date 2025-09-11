@@ -35,26 +35,26 @@ body {
 
 .contact-form {
     background-color: #fff;
-    padding: 30px 25px; /* Increased padding for a more spacious feel */
+    padding: 30px 25px; 
     border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Softer shadow for depth */
-    width: 400px; /* Slightly wider form */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
     margin-top: 20px;
-    transition: transform 0.3s; /* Add a hover effect */
+    transition: transform 0.3s;
 }
 
 .contact-form:hover {
-    transform: translateY(-2px); /* Subtle lift effect on hover */
+    transform: translateY(-2px);
 }
 
 .contact-form h2 {
     text-align: center;
-    margin-bottom: 20px; /* More space below the heading */
+    margin-bottom: 20px;
     color: #333;
 }
 
 .form-group {
-    margin-bottom: 20px; /* Increased space between form groups */
+    margin-bottom: 20px;
 }
 
 label {
@@ -66,38 +66,38 @@ label {
 
 input, textarea {
     width: 100%;
-    padding: 12px; /* Increased padding for comfort */
+    padding: 12px;
     border: 1px solid #ccc;
     border-radius: 8px;
     box-sizing: border-box;
     font-size: 14px;
-    transition: border-color 0.3s; /* Smooth transition for focus effect */
+    transition: border-color 0.3s;
 }
 
 input:focus, textarea:focus {
-    border-color: #007BFF; /* Change border color on focus */
-    outline: none; /* Remove default outline */
+    border-color: #007BFF;
+    outline: none;
 }
 
 textarea {
     resize: vertical;
-    min-height: 120px; /* Slightly taller textarea */
+    min-height: 120px;
 }
 
 .btn {
     display: inline-block;
     width: 100%;
-    padding: 12px; /* Increased padding for the button */
+    padding: 12px;
     background-color: #007BFF;
     color: white;
     border: none;
     border-radius: 8px;
     cursor: pointer;
     font-size: 16px;
-    transition: background-color 0.3s ease, transform 0.3s; /* Add transform effect */
+    transition: background-color 0.3s ease, transform 0.3s;
 }
 
 .btn:hover {
     background-color: #0056b3;
-    transform: translateY(-2px); /* Lift effect on hover */
+    transform: translateY(-2px);
 }
