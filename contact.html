@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <title>Contact</title>
+    <link href="contact.css" rel="stylesheet">
+</head>
+<body>
+    <form class="contact-form" action="bedankt.html" method="GET">
+        <h2>Contact</h2>
+
+        <div class="form-group">
+            <label for="naam">Naam</label>
+            <input type="text" id="naam" name="naam" placeholder="Uw naam" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">E-mailadres</label>
+            <input type="email" id="email" name="email" placeholder="Uw e-mailadres" required>
+        </div>
+
+        <div class="form-group">
+            <label for="bericht">Bericht</label>
+            <textarea id="bericht" name="bericht" placeholder="Uw bericht..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn">Verstuur</button>
+    </form>
+</body>
+</html>
